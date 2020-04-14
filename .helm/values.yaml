@@ -1,0 +1,11 @@
+nameOverride: ""
+fullnameOverride: ""
+
+image:
+  registry: registry.automaticsolutions.ru
+  repository: holiday-emailbot
+  tag: latest
+  pullSecret: regcred
+
+ingress:
+  host: holiday-emailbot.leadgenbot.ru
